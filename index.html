@@ -5,36 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pobierz moją aplikację</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f9;
-            margin: 0;
-        }
-        .card {
-            background: pink;
-            padding: 2rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .download-btn {
-            display: inline-block;
-            background-color: #ff00d4;
-            color: rgb(255, 161, 247);
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-        .download-btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    body {
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f9f9f9; 
+        margin: 0;
+    }
+    .card {
+        background: white;
+        padding: 3rem;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        text-align: center;
+        max-width: 400px;
+        width: 90%;
+    }
+    h1 {
+        color: #e5007d; 
+        margin-bottom: 0.5rem;
+    }
+    p {
+        color: #555;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+    }
+    .download-btn {
+        display: inline-block;
+        background-color: #e5007d; 
+        color: white;
+        padding: 15px 40px;
+        text-decoration: none;
+        border-radius: 50px; 
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+    }
+    .download-btn:hover {
+        background-color: #bc0067; 
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(229, 0, 125, 0.3);
+    }
+</style>
 </head>
 <body>
 
