@@ -40,13 +40,37 @@
         text-decoration: none;
         border-radius: 50px; 
         text-transform: uppercase;
+        font-weight: bold;
         letter-spacing: 1px;
         transition: all 0.3s ease;
+        margin-bottom: 2rem;
     }
     .download-btn:hover {
         background-color: #bc0067; 
         transform: translateY(-2px);
         box-shadow: 0 5px 15px rgba(229, 0, 125, 0.3);
+    }
+    /* Dodany styl dla instrukcji */
+    .instruction {
+        text-align: left;
+        background-color: #fff0f6;
+        padding: 15px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        color: #444;
+        border-left: 4px solid #e5007d;
+    }
+    .instruction h2 {
+        font-size: 1rem;
+        margin-top: 0;
+        color: #e5007d;
+    }
+    .instruction ol {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .instruction li {
+        margin-bottom: 5px;
     }
 </style>
 </head>
@@ -55,9 +79,20 @@
     <div class="card">
         <h1>Aplikacja Hebe</h1>
         <p>Pobierz najnowszą wersję programu w formacie .zip</p>
+        
         <a href="https://drive.google.com/uc?export=download&id=1lLeLP59DK2g0TRSduFWWHHlUSw1Ja5Lf" class="download-btn" download>
             Pobierz teraz (.zip)
         </a>
+
+        <div class="instruction">
+            <h2>Jak zainstalować?</h2>
+            <ol>
+                <li>Pobierz plik klikając powyższy przycisk.</li>
+                <li>Kliknij prawym przyciskiem na pobrany plik <b>.zip</b>.</li>
+                <li>Wybierz opcję <b>"Wypakuj wszystko"</b> lub <b>"Extract here"</b>.</li>
+                <li>Otwórz wypakowany folder i uruchom aplikację.</li>
+            </ol>
+        </div>
     </div>
 
 </body>
